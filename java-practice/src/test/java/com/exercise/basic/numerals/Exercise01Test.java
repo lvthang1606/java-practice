@@ -14,11 +14,11 @@ public class Exercise01Test {
     }
 
     @Test
-    void findLeastCommonMultiple() {
+    void findLowestCommonMultiple() {
         final Exercise01 exercise01 = new Exercise01();
-        assertEquals(0, exercise01.findLeastCommonMultiple(0, 0));
-        assertEquals(12, exercise01.findLeastCommonMultiple(4, 6));
-        assertEquals(10, exercise01.findLeastCommonMultiple(5, 10));
-        assertEquals(7, exercise01.findLeastCommonMultiple(1, 7));
+        assertEquals(0, exercise01.findLowestCommonMultiple(0, 0));
+        assertEquals(12, exercise01.findLowestCommonMultiple(4, 6));
+        assertEquals(10, exercise01.findLowestCommonMultiple(5, 10));
+        assertEquals(7, exercise01.findLowestCommonMultiple(1, 7));
     }
 }
